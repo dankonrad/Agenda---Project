@@ -1,0 +1,50 @@
+Coisas para fazer 
+- utilizar python manage.py
+- fazer um app chamado contact (pythonn manage.py startapp contact)
+
+colocar o app em installed apps em settings.py
+
+fazer o commit no github
+
+depois git push
+
+----------
+
+fazer a pasta base_templates
+
+fazer a pasta base_static
+
+para fazer tudo goblal dentro das duas pastas acima
+
+fazer o respectivo base.html e style.css
+
+configurar os templates em settings em templates DIR
+
+---- BASE_DIR / "base_template"
+
+add STATICFILES_DIRS = (
+  BASE_DIR / "base_static",
+  )
+
+------------
+
+dentro da pasta contacts criar a pasta templates/contact
+
+criar file index.html
+
+tem que extender global.html
+
+ddentro da pasta contact é necessário url.py
+
+copiar tudo de project urls
+
+renderizar o index.html a view pela views dentro de contact
+
+ligar a view ao url
+
+dar o nome para o url
+
+fazer o include do contact.urls na página de url do project
+
+ativar os archivos staticos no base.html
+
